@@ -327,7 +327,7 @@ $.fn.boomText = function(type) {
       if (index >= $boomTexts.length) {
         clearInterval(clock)
       }
-    }, 300)
+    }, 100)
   }
 
 
